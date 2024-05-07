@@ -13,12 +13,13 @@ h1{
  }
 
 footer {
-    display: flex;
+    display:flex;
     justify-content: center;
     padding-top: 10px;
     background-color: #4bf32140;
     color: #ec21f3;
-    padding-bottom: 30px;
+    padding-bottom: 120px;
+    height: 100%;
  }
 
 .upper{
@@ -102,10 +103,13 @@ footer {
   }
   
 .dark span{
-    display: inline-block;
+    display:flex;
     border-left: 2px solid #ccc;
-    margin: 12px;
-    height: 650px;
+    margin: 141px;
+    padding-bottom: 400px;
+
+    /* height:100%; */
+    /* height:7px; */
 }
 
   
@@ -117,10 +121,11 @@ footer {
   }
   
 .light span{
-    display: inline-block;
+    display: flex;
     border-left: 2px solid #ec21f3;
-    margin: 12px;
-    height: 650px;
+    margin: 141px;
+    padding-bottom: 400px;
+    /* height: 650px; */
 }
 @media only screen and (max-width: 1950px) {
   .switch{margin-left: auto;}

@@ -17,7 +17,7 @@ function storeInput() {
     localStorage.setItem('bloginput', JSON.stringify(blogInput));
   }
 
- function changeScreen(){
+function changeScreen(){
   window.location.href="/blog.html";
 }
 

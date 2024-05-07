@@ -1,53 +1,55 @@
- /* Dark Mode */
- .dark {
-    background-color:#243447;
-    height: 100%;
-    color: #bebebe
-   
-  }
-  
-.dark span{
-    display: inline-block;
-    border-left: 2px solid #ccc;
-    margin: 12px;
-    height: 650px;
-}
-
-  
-  /* Light Mode */
-.light {
-    background-color: #f0ead6;
-    color: black;
-    height: 100%;
-  }
-  
-.light span{
-    display: inline-block;
-    border-left: 2px solid #ec21f3;
-    margin: 12px;
-    height: 650px;
-}
+ 
 .button{
   display: block;
   margin-left: auto;
   margin-right: 0;
   float: right;
 }
-#back{
+ #back{
   border: 2px;
   color: #ec21f3;
   padding: 16px 32px;
   text-align: center;
   text-decoration: none;
-  /* display: block; */
+  
   font-size: 16px;
   margin: 4px 4px;
   transition-duration: 0.4s;
   cursor: pointer;
-  border-radius: 40px;
-  /* position: absolute; */
-  
+  border-radius: 40px;    
+ }
+
+.blog{
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: #bebebe;
+  color:#243447;
+  border: 2px solid black;
+  padding: 10px;
 }
+.userfield{
+  margin-left: 100px;
+  margin-right: 100px;
+  color:#243447;
+  background-color:#9cc15be3;
+  border: 2px solid black; 
+  padding: 1px;
+}
+.textfield{
+  margin-left: 100px;
+  margin-right: 100px;
+  border: 2px solid black; 
+  padding: 1px;
+}
+.textend{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 60px;
+  border: 2px solid black; 
+  padding: 1px;
+}
+
+
 @media only screen and (max-width: 1950px) {
   #back{
     display: inline-flex;
