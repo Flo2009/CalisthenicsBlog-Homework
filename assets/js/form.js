@@ -18,7 +18,7 @@ function storeInput() {
   }
 
 function changeScreen(){
-  window.location.href="/blog.html";
+  window.location.href="blog.html";
 }
 
 submitButton.addEventListener('click', function (event){
