@@ -12,17 +12,11 @@ h1{
     padding-left: 40px;
  }
 
-footer {
-    display:flex;
-    justify-content: center;
-    padding-top: 10px;
-    background-color: #4bf32140;
-    color: #ec21f3;
-    padding-bottom: 120px;
-    height: 100%;
- }
+
 
 .upper{
+    display:flex;
+    flex-direction: column;
     background-color: #2196F3;
     padding-top: 20px;
 }
@@ -30,12 +24,13 @@ footer {
  /* The switch - the box around the slider */
  .switch {
     position: relative;
-    display: flex;
+    /* display: flex; */
     width: 60px;
     height: 34px;
     margin-left:1350px;
     margin-top: 10px;
     padding-top: 30px;
+    margin-left: auto;
     
   }
   
@@ -49,7 +44,7 @@ footer {
   /* The slider */
   .slider {
     position: absolute;
-    display: flex;
+    /* display: flex; */
     cursor: pointer;
     top: 0;
     left: 0;
@@ -94,6 +89,12 @@ footer {
   .slider.round:before {
     border-radius: 50%;
   } 
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+}
     /* Dark Mode */
 .dark {
     background-color:#243447;
@@ -103,7 +104,7 @@ footer {
   }
   
 .dark span{
-    display:flex;
+    /* display:flex; */
     border-left: 2px solid #ccc;
     margin: 141px;
     padding-bottom: 400px;
@@ -121,13 +122,16 @@ footer {
   }
   
 .light span{
-    display: flex;
+    /* display: flex; */
     border-left: 2px solid #ec21f3;
     margin: 141px;
     padding-bottom: 400px;
     /* height: 650px; */
 }
-@media only screen and (max-width: 1950px) {
-  .switch{margin-left: auto;}
-  
+.vertical-line{
+  width: 5px;
 }
+/* @media only screen and (max-width: 700px) { */
+  /* .switch{margin-left: auto;} */
+  
+/* } */

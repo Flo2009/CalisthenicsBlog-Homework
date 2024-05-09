@@ -49,10 +49,21 @@
   padding: 1px;
 }
 
+footer {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 100px;
+  background-color: #4bf32140;
+  color: #ec21f3;
+  
+  
+}
 
-@media only screen and (max-width: 1950px) {
+
+/* @media only screen and (max-width: 1950px) {
   #back{
     display: inline-flex;
   }
   
-}
+} */

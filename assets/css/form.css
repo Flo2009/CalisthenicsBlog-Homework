@@ -1,10 +1,17 @@
  
  
+ .image {
+    display: flex;
+    width:500px;
+    height: 500px;
+    border-radius: 25px;
+ }
 
  .flexi{
     display: flex;
     flex-direction: row;
     justify-content:space-between;
+    padding-bottom: 90px;
     /* margin-left: 200px; */
  }
  
@@ -24,45 +31,64 @@
 #submit{
     background-color: #4bf32140;
   }
- @media only screen and (max-width: 1400px) {
-    .form{width: 80%;}
-    .upper{width: auto;}
-    .container{width: auto;}
+/* footer attributes for the form only */
+footer {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+    background-color: #4bf32140;
+    color: #ec21f3;
+    /* margin-top: 20px; */
+    /* height: 100%; */
+    padding-bottom: 60px;
+    position: absolute;
+  bottom: 0; 
+  width: 100%;
+  left: 0; 
     
-  }
-  /* @media only screen and (min-width: 600px) {
-    .form{width: 40%;}
-    .upper{width: 40%;}
-    .container{width: 40%;}
-  }*/
-  @media only screen and (max-width: 1200px) {
-    .form{width: 100%;}
-    img{
-      width: 50%;
-      height: 50%;
-      object-fit: cover;
-    }
-    .container{
-      width: fit-content;
-    }
-    .vertical-line{
-      width: fit-content;
-      height: auto;
-      object-fit: cover;
-    }
-  } 
-  @media only screen and (max-width: 1000px) {
-    .img{
-      width: 100%;
-      display:inline-block;
-    }
+ }
+ /* responsiveness of page */
+ @media only screen and (max-width: 1400px) {
     .vertical-line{
       display: none;
     }
+    .flexi{
+      padding-top: 25px;
+    }
+  } 
+   @media only screen and (max-width: 700px) {
+    .flexi{flex-direction:column;}
     .form{
-      width: 60%;
-      object-fit: cover;
+      width: 50%;
+      position: relative;
+      }
+    footer{
+      position: relative;
     }
   }
+ /* adjust image when under 1000px  */
+@media only screen and (max-width: 1000px) {
+    
+    .image{
+      width: 50%;
+      height:50%;
+      
+    }
+      
+    .container{
+      width: fit-content;
+      
+    }
+    
+} 
+  /* do not display the image after a certain px size has reached */
+   @media only screen and (max-width: 900px) {
+    .image{
+      
+      display:none;
+    }
+    
+  } 
   
-  
+   

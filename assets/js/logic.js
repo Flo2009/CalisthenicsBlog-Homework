@@ -20,7 +20,7 @@ console.log(docTitle);
 function htmlCheckImage1(){
   if (docTitle===docindex){
     imgEl[0].setAttribute('src', './assets/images/Sports.png');
-    imgEl[0].setAttribute('style', 'width:85%; display: flex; display: flex; flex-flow: row; position: relative; top: 0; transition: all .1s ease-in; border-radius: 25px');
+    imgEl[0].setAttribute('class', 'image');
   }else if (docTitle===docBlog){
     imgEl[0].setAttribute('src', './assets/images/Sports.png');
     imgEl[0].setAttribute('style', 'background-image: url("./assets/images/Sports.png"); background-repeat: no-repeat; display: block; margin-left: auto; margin-right: auto; width: 50%; opacity: 0.2');
@@ -30,7 +30,7 @@ function htmlCheckImage1(){
 function htmlCheckImage2(){
   if (docTitle===docindex){
     imgEl[0].setAttribute('src', './assets/images/Rings.png');
-    imgEl[0].setAttribute('style', 'width:85%; height: 85%; padding-left: 50px; display: flex; flex-flow: row; position: relative; top: 0; transition: all .1s ease-inv; border-radius: 25px');
+    imgEl[0].setAttribute('class', 'image');
   }else if (docTitle===docBlog){
     imgEl[0].setAttribute('src', './assets/images/Rings.png');
     imgEl[0].setAttribute('style', 'background-image: url("./assets/images/Rings.png"); background-repeat: no-repeat; display: block; margin-left: auto; margin-right: auto; width: 50%; max-height: 700px; opacity: 0.2');
