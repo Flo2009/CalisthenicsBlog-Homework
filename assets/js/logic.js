@@ -16,7 +16,7 @@ let docBlog='CalisthenicsBlog-Display'
 
 console.log(docTitle);
 
-
+//load image on landing page and change depending on background mode selection
 function htmlCheckImage1(){
   if (docTitle===docindex){
     imgEl[0].setAttribute('src', './assets/images/Sports.png');
@@ -26,7 +26,7 @@ function htmlCheckImage1(){
     imgEl[0].setAttribute('style', 'background-image: url("./assets/images/Sports.png"); background-repeat: no-repeat; display: block; margin-left: auto; margin-right: auto; width: 50%; opacity: 0.2');
   }
 }
-
+// load image on Blog page as background image and change it depending on the mode selection
 function htmlCheckImage2(){
   if (docTitle===docindex){
     imgEl[0].setAttribute('src', './assets/images/Rings.png');

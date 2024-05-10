@@ -2,8 +2,6 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
 - Motivation was to give people a platform to share the knowledge of how specific calisthenics exercise work and what goes around the 
 lifestyle.
 - I am a sports fanatic and when I was injured last year the only way to keep me fit was through strength work.

@@ -20,11 +20,11 @@ function storeInput() {
 function changeScreen(){
   window.location.href="blog.html";
 }
-
+//on click check if fields have been filled and push into array and load the page to the Blog 
 submitButton.addEventListener('click', function (event){
     event.preventDefault;
-    let userInput=user.value;
-    let titleInput=title.value;
+    let userInput=user.value.trim;
+    let titleInput=title.value.trim;
     let commentInput=comment.value.trim();
 
     if (userInput===''|| titleInput===''||commentInput===''){
@@ -38,8 +38,7 @@ submitButton.addEventListener('click', function (event){
   });
 
 init();
-// console.log(blogInput);
-// localStorage.setItem('bloginput', JSON.stringify(blogInputs));
+
 
     
 

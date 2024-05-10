@@ -63,8 +63,7 @@ function renderBlogEntries() {
                 blogList.appendChild(p1); 
             }
             
-            // console.log(h3);
-            //h3.setAttribute('data-file', i);
+            
             
         }
 })
